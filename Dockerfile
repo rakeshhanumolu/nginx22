@@ -1,3 +1,5 @@
-echo "FROM nginx:latest
+# Use the official Nginx image from the Docker Hub
+FROM nginx:latest
 
-COPY ./html /usr/share/nginx/html" > Dockerfile
+# Copy the content from the local html directory to the Nginx html directory
+COPY ./html /usr/share/nginx/html
