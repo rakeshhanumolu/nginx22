@@ -2,6 +2,4 @@
 FROM nginx:latest
 
 # Copy the content from the local html directory to the Nginx html directory
-COPY ./html /usr/share/nginx/index.html
-
-
+COPY ./html /usr/share/nginx/html
